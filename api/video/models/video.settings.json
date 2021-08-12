@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
     },
@@ -28,8 +25,13 @@
       "type": "text"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "Title"
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "json"
     }
   }
 }
