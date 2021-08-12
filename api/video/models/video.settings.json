@@ -24,14 +24,15 @@
     "Meta_keywords": {
       "type": "text"
     },
-    "slug": {
-      "type": "uid"
-    },
-    "title": {
-      "type": "string"
-    },
     "meta": {
       "type": "json"
+    },
+    "video_title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "video_title"
     }
   }
 }
