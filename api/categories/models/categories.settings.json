@@ -14,13 +14,6 @@
   "attributes": {
     "category": {
       "type": "string"
-    },
-    "videos": {
-      "collection": "video"
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "category"
     }
   }
 }

@@ -33,6 +33,9 @@
     "slug": {
       "type": "uid",
       "targetField": "video_title"
+    },
+    "category": {
+      "model": "categories"
     }
   }
 }
