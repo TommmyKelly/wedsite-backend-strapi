@@ -36,6 +36,9 @@
     },
     "category": {
       "model": "categories"
+    },
+    "video_url": {
+      "type": "string"
     }
   }
 }
